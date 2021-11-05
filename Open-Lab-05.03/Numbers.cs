@@ -18,14 +18,8 @@ namespace Open_Lab_05._03
             else
             {
 
-                for (int i = string_number.Length - 1; i >= 3; i -= 1)
-                {
-                    if (i % 3 == 0)
-                    {
-                        string_number = string_number.Insert(string_number.Length - i, " ");
-                    }
-                }
-                return string_number;
+                
+                return num.ToString("N0");
             }
         }
     }
